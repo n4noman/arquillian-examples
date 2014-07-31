@@ -66,7 +66,7 @@ public class GamePersistenceTest {
             .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
         
         // choose your packaging here
-        return jar;
+        return war;
     }
  
     private static final String[] GAME_TITLES = {
